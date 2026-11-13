@@ -1,11 +1,11 @@
 def read_numbers():
-    number = []
+    numbers = []
     while True:
         text = input("Enter a number (or press Enter to finish): ")
         if text == "":
             break
         numbers.append(float(text))
-    return number
+    return numbers
 
 def addmultiplenumbers(numbers):
     total = 0
